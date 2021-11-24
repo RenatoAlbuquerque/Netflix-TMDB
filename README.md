@@ -1,5 +1,6 @@
 # netflix_tmdb
   <h2>Página interface da netflix consumindo API do The Movie Data Base, com informações de diversos filmes</h2>
+  <h3><a href="https://netflix-tmdb.netlify.app" target="_blank" rel="noreferrer">Acesse a Página Aqui</a></h3>
   <h3>Página WEB</h3>
   <img alt="paginaWeb" width="800" ight="600" src="https://user-images.githubusercontent.com/84095953/135196029-b566f884-8a20-48e4-b111-e5c57ceb1dd4.png">
   <h3>Página Mobile</h3>
