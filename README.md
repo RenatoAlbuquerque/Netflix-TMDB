@@ -12,6 +12,6 @@
   </p>
   
   <h4>Bibliotecas Utilizadas</h4>
-  <a href="https://www.npmjs.com/package/react-scroll" target="_blank" rel="external">React Scroll</a></br>
-  <a href="https://material-ui.com/pt/" target="_blank" rel="external">Material UI Core</a></br>
+  <a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="external">Node Sass</a></br>
+  <a href="https://react-icons.github.io/react-icons/" target="_blank" rel="external">React Icons</a></br>
   
