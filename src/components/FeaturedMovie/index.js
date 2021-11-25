@@ -36,10 +36,12 @@ export default ({item}) => {
             <div className="featured--description">{description}</div>
             <div className="featured--buttons">
               <a 
-                href={`/watch/${item.id}`} 
+                href={`https://www.themoviedb.org/tv/${item.id}`}
+                target="_blank"
+                rel="noreferrer"
                 className="featured--watchbutton"
               >
-                ▷ Assistir 
+                ▷ Ver Info 
               </a>
               <a 
                 href={`/list/add/${item.id}`} 
