@@ -45,6 +45,11 @@ export default function App ()  {
 
   return (
     <div className="page">
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src='https://c.tenor.com/zQ6H2k7HwGcAAAAC/netflix-netflix-logo.gif' alt="Carregando"/>
+        </div>
+      }
       <Header black={blackHeader}/>
       {featuredData &&
         <FeaturedMovie item={featuredData}/>
@@ -61,11 +66,7 @@ export default function App ()  {
         <p>Imagens e dados cedidos pelo The Movie Data Base</p>
         <p>Desenvolvido por <a href="https://www.linkedin.com/in/renato-albuquerque-dev/" target="_blank" rel="noreferrer">Renato Albuquerque</a></p>
       </footer>
-      {movieList.length <= 0 &&
-        <div className="loading">
-          <img src='https://c.tenor.com/zQ6H2k7HwGcAAAAC/netflix-netflix-logo.gif' alt="Carregando"/>
-        </div>
-      }
+      
     </div>
   );
 }
